@@ -36,6 +36,9 @@ module.exports = {
     'max-len': ["error", 120, { "ignoreUrls": true }],
     'react/jsx-filename-extension': 0,
     'react/jsx-props-no-spreading': 0,
+    "react/prop-types": 0,
+    "react/state-in-constructor": 0,
+    "react/static-property-placement": 0,
     'import/no-named-default': 0,
     'import/no-named-as-default': 0,
     'import/prefer-default-export': 0,
@@ -43,7 +46,6 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 0,
     '@typescript-eslint/camelcase': 0,
     '@typescript-eslint/explicit-module-boundary-types': 0,
-    'jsx-a11y/accessible-emoji': 0,
     'no-param-reassign': 0,
   },
 };
